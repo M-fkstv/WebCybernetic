@@ -42,25 +42,27 @@ main {
     button {
       display: flex;
       align-items: center;
-      justify-content: space-around;
-
+      justify-content: space-between;
       outline: none;
       border: 0;
       border-radius: 60px;
       width: 341px;
       height: 68px;
-      padding: 12px;
+      padding: 12px 12px 12px 24px;
       color: #ffffff;
       background-color: #244c98;
       font-weight: 500;
       font-size: 18px;
       line-height: 18.8px;
       font-family: 'Manrope';
+      cursor: pointer;
 
-      div {
-        height: 24px;
-        width: 24px;
+      .arrow {
+        height: 44px;
+        width: 44px;
         background-color: #ffffff;
+        border-radius: 50%;
+        padding: 10px;
       }
     }
   }
