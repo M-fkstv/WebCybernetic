@@ -15,7 +15,7 @@
           а так же, не менее 2500 средних и малых проектов. Используя
           знания и накопленный опыт мы можем предложить.
         </p>
-        <button>
+        <button id="button">
           Попробовать бесплатно
           <div class="arrow">
             <svg
@@ -48,8 +48,19 @@
       </div>
 
       <dialog>
-        <button autofocus>Close</button>
-        <p>This modal dialog has a groovy backdrop!</p>
+        <form class="form">
+          <button class="button__close">&#10006;</button>
+          <h2>Войти в систему</h2>
+          <input placeholder="Email/Телефон" type="text">
+          <input placeholder="Пароль" type="text">
+          <div>
+            <input type="checkbox" id="password" name="password" />
+            <label for="password">Запомнить пароль</label>
+          </div>
+          <span>Восстановить</span>
+          <button class="enter form__button">Войти</button>
+          <button class="registration form__button">Зарегестрироваться</button>
+        </form>
       </dialog>
         
       </main>
